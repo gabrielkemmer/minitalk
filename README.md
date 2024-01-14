@@ -1,33 +1,36 @@
-Minitalk
+# Minitalk
 
-Minitalk is a lightweight client-server communication program designed for sending and receiving small messages using the concept of signals. This project is a part of a larger set of assignments and aims to demonstrate interprocess communication in a simple and efficient way.
+**Minitalk** is a lightweight client-server communication program designed for sending and receiving small messages using the concept of signals. This project is a part of a larger set of assignments and aims to demonstrate interprocess communication in a simple and efficient way.
 
-Table of Contents
+## Table of Contents
 
-Features
-Prerequisites
-Getting Started
-Usage
-Contributing
-License
-Features
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Client-Server Communication: Minitalk allows a client to send short messages to a server using signals.
-Signal-Based: The communication between the client and server is done entirely through signals, making it lightweight and efficient.
-Minimalistic: The program is designed to be minimalistic and focuses on demonstrating interprocess communication concepts.
-Prerequisites
+## Features
+
+- **Client-Server Communication:** Minitalk allows a client to send short messages to a server using signals.
+- **Signal-Based:** The communication between the client and server is done entirely through signals, making it lightweight and efficient.
+- **Minimalistic:** The program is designed to be minimalistic and focuses on demonstrating interprocess communication concepts.
+
+## Prerequisites
 
 Before you can use Minitalk, ensure you have the following prerequisites:
 
-A Unix-like operating system (e.g., Linux, macOS)
-gcc compiler or another compatible C compiler
-libft library (if required, link to the library's GitHub repository)
-Getting Started
+- A Unix-like operating system (e.g., Linux, macOS)
+- `gcc` compiler or another compatible C compiler
+- [libft](https://github.com/yourusername/libft) library (if required, link to the library's GitHub repository)
 
-Clone this repository to your local machine:
-shell
-Copy code
-git clone https://github.com/gabrielkemmer/minitalk.git
+## Getting Started
+
+1. Clone this repository to your local machine:
+
+   ```shell
+   git clone https://github.com/yourusername/minitalk.git
 Navigate to the project directory:
 shell
 Copy code
@@ -62,3 +65,8 @@ Please ensure that your code follows good coding practices, and include appropri
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+vbnet
+Copy code
+
+Copy and paste this Markdown version into your GitHub repository's READ
